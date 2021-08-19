@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".slot1"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="108dp"
+                android:layout_height="103dp"
+                android:src="@drawable/vacbacrop" />
+            <Button
+                android:id="@+id/home"
+                android:layout_marginLeft="120dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="HOME"></Button>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Adhaar To Book Slot"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:layout_marginTop="20dp"/>
+
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="20dp"
+
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/tvbnumber"
+                    android:hint="Adhaar No"
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/tvnumber"
+                    android:layout_width="210dp"
+                    android:layout_height="50dp"
+
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/tvbname"
+                    android:hint="Vaccine Name"
+
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/tvvaccine"
+                    android:layout_width="210dp"
+                    android:layout_height="70dp"
+
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="CovidCare Hospital" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/tvbage"
+                    android:hint="Location"
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/tvlocation"
+                    android:layout_width="210dp"
+                    android:layout_height="50dp"
+
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="Kadugodi" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/tvbemail"
+                    android:hint="Timing"
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/tvtiming"
+                    android:layout_width="210dp"
+                    android:layout_height="50dp"
+
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="3:00-4:00P.M." />
+
+            </LinearLayout>
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:background="@color/black"
+                android:layout_marginTop="40dp"
+                android:hint="click!"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

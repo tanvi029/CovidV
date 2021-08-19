@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admindashboard"
+    android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="164dp"
+        android:layout_height="113dp"
+        android:src="@drawable/vacbacrop"
+        android:transitionName="logo_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Let's Stop Covid-19"
+        android:textSize="30sp"
+        android:transitionName="logo_text"
+        android:textColor="@color/black"/>
+
+
+
+
+        <EditText
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:text="Cuurently, the Hospital have two approved vaccines, Covaxin and Covishield. It is recommended that the 2nd dose of COVAXIN should be administered in the interval of 4 to 6 weeks from the date of 1st dose administration. For COVISHIELD the recommended interval is 4 to 8 weeks while an interval of 6 to 8 weeks gives an enhanced protection. You may choose the date of 2nd dose vaccination as per your convenience">
+
+
+
+</EditText>
+
+
+
+
+</LinearLayout>

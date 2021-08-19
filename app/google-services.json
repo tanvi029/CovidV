@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "876894956066",
+    "project_id": "vaccinex-db4d2",
+    "storage_bucket": "vaccinex-db4d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876894956066:android:bfe06365debf2d79acf87b",
+        "android_client_info": {
+          "package_name": "com.example.vaccinex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876894956066-tdt09vu4800tdptoc9enhtb265h2c7bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtp6R0sc03QBoc451g2u9x3nopUnNNht4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876894956066-tdt09vu4800tdptoc9enhtb265h2c7bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
